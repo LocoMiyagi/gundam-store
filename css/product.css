@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-body {
+.backgroundcolor {background-color: #000000;
     font-family: "Poppins", sans-serif;
     color: #444444;
 }
@@ -59,26 +59,41 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center;
+    background: url("https://i.ebayimg.com/images/g/bhEAAOSwo2tjQDWi/s-l1600.jpg") no-repeat center;
     background-size: cover;
 		transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background: url("https://m.media-amazon.com/images/I/813wUe9bG5L.jpg") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center;
+    background: url("https://shoplineimg.com/6270c198a039e3002fe13d43/62eb7a0ac65a1c00318d8ad7/800x.jpg") no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    background: url("https://www.gundam.my/images/sell_products/interactive/2171/1.jpg") no-repeat center;
     background-size: cover;
 }
-
+.section-products #product-5 .part-1::before {
+    background: url("https://m.media-amazon.com/images/I/7139qMv4a7L._AC_UF894,1000_QL80_.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+    background: url("https://images.tokopedia.net/img/cache/500-square/product-1/2017/1/25/8642952/8642952_86e2fc20-6745-4ce1-a984-df8ca936064f_560_560.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+    background: url("https://bbts1.azureedge.net/images/p/full/2020/07/778217eb-122a-4faa-a3c9-9e8e24566b5a.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+    background: url("https://cdn.shopify.com/s/files/1/2637/6278/products/4543112512444a_800x.jpg?v=1599698357") no-repeat center;
+    background-size: cover;
+}
 .section-products .single-product .part-1 .discount,
 .section-products .single-product .part-1 .new {
     position: absolute;
